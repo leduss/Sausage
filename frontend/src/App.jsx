@@ -1,12 +1,10 @@
-import Home from "./pages/Home";
-
+import Grid from "./components/grid/Grid";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
+    <div className="bg-yellow-400">
+      <Grid />
     </div>
   );
 }
